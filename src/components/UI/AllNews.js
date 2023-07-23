@@ -29,7 +29,7 @@ function AllNews({ allNews }) {
           lg: 32,
         }}
       >
-        {allNews.map((news) => (
+        {allNews?.map((news) => (
           <Col key={news.id} className="gutter-row" span={6}>
             <Card
               hoverable
